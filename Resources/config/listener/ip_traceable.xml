@@ -16,7 +16,7 @@
             <tag name="doctrine.event_subscriber" />
         </service>
 
-        <service id="dcs_doctrine_extensions.listener.ip_traceable" class="%dcs_doctrine_extensions.listener.ip_traceable.class%" scope="request">
+        <service id="dcs_doctrine_extensions.listener.ip_traceable" class="%dcs_doctrine_extensions.listener.ip_traceable.class%">
             <argument type="service" id="gedmo.listener.ip_traceable" />
             <argument type="service" id="request" on-invalid="null" />
             <tag name="kernel.event_listener" event="kernel.request" method="onKernelRequest" />
