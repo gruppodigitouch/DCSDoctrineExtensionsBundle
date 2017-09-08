@@ -1,12 +1,12 @@
 {
-    "name": "damianociarla/doctrine-extensions-bundle",
+    "name": "gruppodigitouch/doctrine-extensions-bundle",
     "description": "This Bundle includes the doctrine extensions in your Symfony2 applications",
     "type": "library",
     "keywords": [
         "symfony2","doctrine","extensions"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/damianociarla/DCSDoctrineExtensionsBundle",
+    "homepage": "https://github.com/gruppodigitouch/DCSDoctrineExtensionsBundle",
     "authors": [
         {
             "name": "Damiano Ciarla",
@@ -16,8 +16,8 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/symfony": "~2.3",
-        "gedmo/doctrine-extensions": "~2.4"
+        "symfony/symfony": "^2.0|^3.0",
+        "gedmo/doctrine-extensions": "^2.0"
     },
     "autoload": {
         "psr-0": { "DCS\\DoctrineExtensionsBundle": "" }
